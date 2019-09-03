@@ -36,11 +36,11 @@
 
 
 ## 二、事件进阶 ##
-# html：#
+# html：
 	<button type="button" id="btn1" class="btn btn-primary" style="width:100px;text-align:center;margin-bottom: 10px;">map1</button>
 	<button type="button" id="btn2" class="btn btn-primary" style="width:100px;text-align:center;margin-bottom: 10px;">map2</button>
     
-# js：#
+# js：
     //1、实例化中间件
     var mw,context = {};
     mw = new Middleware(context);
